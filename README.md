@@ -10,7 +10,10 @@ Desenvolvimento de microsserviço para gerenciamento de Proposta de Análise de 
 - Gabriel Borba Pugliese Ribeiro - RM94677
 - Pedro De Sousa Dutra - RM96167
 
+## Observações 🖊️:
 
+- User utiliza CPF único (Feito validação para cada usuário ser único a partir do CPF)
+- É possível inserir uma proposta com um usuário já existente, utilizando o mesmo CPF do usuário já inserido (No JSON de inserção de uma proposta, no atributo CPF do usuário coloque o mesmo CPF do usuário já criado anteriormente, para assim a proposta ser atribuída a esse usuário)
 
 ## Ferramentas e especificações 🛠️:
 
