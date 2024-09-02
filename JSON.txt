@@ -1,0 +1,59 @@
+// Gabriel Borba Pugliese Ribeiro - RM94677
+// Pedro De Sousa Dutra - RM96167
+
+
+// -----------------------PROPOSTAS---------------------------
+
+// JSON insert
+// http://localhost:8080/propostas  (POST)
+// Deverá ser inserido assim:
+{
+    "valorSolicitado": 11111,
+    "prazoParaPagamento": 11,
+    "aprovado": false,
+    "user": {
+        "nome": "Bruno",
+        "sobrenome": "Aloheida",
+        "cpf": "111.111.111-11",
+        "telefone": "11111111111",
+        "renda": 1111.11
+    }
+}
+// ----------------------------------
+// JSON findAll and findById
+// http://localhost:8080/propostas/<id>  (GET)
+// Será mostrado assim:
+{
+    "id": 1,
+    "valorSolicitado": 11111,
+    "prazoParaPagamento": 11,
+    "aprovado": false,
+    "userId": 1
+}
+// ----------------------------------------------------------
+// ------------------------USERS-----------------------------
+
+// JSON insert
+// http://localhost:8080/users  (POST)
+// Deverá ser inserido assim:
+{
+    "nome": "teste",
+    "sobrenome": "testee",
+    "cpf": "999.999.999-99",
+    "telefone": "99999999999",
+    "renda": 9999.09
+}
+// ----------------------------------
+// JSON findAll and findById
+// http://localhost:8080/users/<id>  (GET)
+// Será mostrado assim:
+{
+    "nome": "teste",
+    "sobrenome": "testee",
+    "cpf": "999.999.999-99",
+    "telefone": "99999999999",
+    "renda": 9999.09
+}
+// ----------------------------------------------------------
+
+

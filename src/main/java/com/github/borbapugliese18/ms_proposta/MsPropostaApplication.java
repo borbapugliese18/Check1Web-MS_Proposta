@@ -1,3 +1,5 @@
+// Gabriel Borba Pugliese Ribeiro - RM94677
+// Pedro De Sousa Dutra - RM96167
 package com.github.borbapugliese18.ms_proposta;
 
 import org.springframework.boot.SpringApplication;
